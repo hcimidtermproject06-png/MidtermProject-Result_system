@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">   
+</head>
+<body>
+
+<header class="hero">
+
+    <nav>
+        <div class="logo"><b>Research</b></div>
+
+        <!-- MENU ICON -->
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <div class="hero-content">
+        <h1>Online Transparency System</h1>
+        <p>Barangay Funds and Community Development Projects</p>
+    </div>
+</header>
+
+<!-- SIDEBAR MENU -->
+<div id="sidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">×</a>
+    <a href="home.html">🏠 Home</a>
+    <a href="Data_gathering.html">📊 Data Gathering</a>
+    <a href="results.html">📈 Results</a>
+</div>
+
+<section class="section">
+    <h2>Welcome</h2>
+    <p>
+        This website presents our data gathering process, 
+        results, and analysis for the Online Transparency System 
+        in barangay funds and community development projects.
+    </p>
+</section>
+
+<section class="team">
+    <h2>Our Team</h2>
+
+    <div class="team-container">
+
+        <div class="member">
+            <img src="mark.jpg">
+            <h3>Mark Anthony Milanay</h3>
+            <p>BSIT 3-E</p>
+        </div>
+
+        <div class="member">
+            <img src="edgar.jpg">
+            <h3>Edgar Calinog IV</h3>
+            <p>BSIT 3-E</p>
+        </div>
+
+        <div class="member">
+            <img src="lawrence.jpg">
+            <h3>John Lawrence Rivero</h3>
+            <p>BSIT 3-E</p>
+        </div>
+
+        <div class="member">
+            <img src="adrian.jpg">
+            <h3>Adrian Delfino</h3>
+            <p>BSIT 3-E</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section gray">
+    <h2>About the Website</h2>
+    <p>
+        This website showcases our research, including 
+        the data gathering process and the results, discussion, 
+        and recommendations of the study.
+    </p>
+</section>
+
+<script>
+function toggleMenu() {
+    document.getElementById("sidebar").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
